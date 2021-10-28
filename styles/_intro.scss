@@ -18,6 +18,9 @@ nav {
     @include flex(space-around, centre, row);
     flex: 1 1 40rem;
   }
+  .logo {
+    width: 10%;
+  }
 }
 .intro {
   min-height: 90vh;
@@ -84,7 +87,7 @@ nav {
 }
 @keyframes me {
   from {
-    transform: rotateZ(-3deg);
+    transform: scale(0.8) translate(65%, 12%) rotateZ(-3deg);
   }
   to {
     transform: rotateZ(3deg);

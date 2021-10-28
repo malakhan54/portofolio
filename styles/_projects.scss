@@ -2,6 +2,7 @@
   width: 90%;
   margin: auto;
   min-height: 90vh;
+  font-family: "Satisfy", cursive;
   @include flex(space-between, centre, row);
   text-align: center;
   flex-wrap: wrap;
