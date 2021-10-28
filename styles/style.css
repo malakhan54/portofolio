@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+.city {
+  background-image: url(./images/businessman-using-mobile-smartphone-on-600w-1926515411.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  color: wheat;
+  font-family: "Parisienne", cursive;
+}
+
 html {
   font-size: 62.5%;
   --header1: calc(2rem+1vw);
